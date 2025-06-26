@@ -16,6 +16,13 @@ Key Features:
 📦 Lightweight model optimized for CPU execution
 
 
+# Dataset
+
+Source : Kaggle
+```
+https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
+```
+
 # Model Flow
 
 ```
