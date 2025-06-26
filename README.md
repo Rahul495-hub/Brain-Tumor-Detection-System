@@ -66,6 +66,8 @@ OpenCV
 # Setup Instructions
 
 ```
+# Save the model in .h5 file(model.h5) in models folder 
+
 # Clone the repository
 git clone https://github.com/Rahul495-hub/Brain-Tumor-Detection-System.git
 cd Brain-Tumor-Detection-System
