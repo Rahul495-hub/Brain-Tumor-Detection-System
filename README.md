@@ -16,6 +16,18 @@ Key Features:
 📦 Lightweight model optimized for CPU execution
 
 
+# Model Flow
+
+```
+graph LR
+A[Raw MRI] --> B(Preprocessing)
+B --> C[Augmentation]
+C --> D[Model Training]
+D --> E[Evaluation]
+E --> F[Web Deployment]
+```
+
+
 # Model Architecture
 The custom CNN architecture delivers high performance while maintaining computational efficiency:
 
@@ -29,18 +41,6 @@ Input (240, 240, 3)
 ├── Flatten()
 └── Dense(1, activation='sigmoid')
 ```
-
-# Dataset
-
-The model uses the Kaggle Brain MRI Dataset with augmentation to address class imbalance:
-
-Class	                     Original	   After Augmentation
-
-Tumor (Yes)                  155              1,085
-
-Healthy (No)                  98	             980
-
-Total	                       253	            2,065
 
 
 # Preprocessing Pipeline:
@@ -62,6 +62,28 @@ Python 3.8+
 TensorFlow 2.x
 
 OpenCV
+
+# Setup Instructions
+
+```
+# Clone the repository
+git clone https://github.com/Rahul495-hub/Brain-Tumor-Detection-System.git
+cd Brain-Tumor-Detection-System
+
+# Create virtual environment (recommended)
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+
+# Install dependencies
+pip install -r requirements.txt
+```
+# Running the Web Demo
+
+```
+python app.py
+```
+
 
 
 
