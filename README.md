@@ -34,13 +34,13 @@ Input (240, 240, 3)
 
 The model uses the Kaggle Brain MRI Dataset with augmentation to address class imbalance:
 
-Class	        Original	   After Augmentation
+Class	                     Original	   After Augmentation
 
-Tumor (Yes)       155              1,085
+Tumor (Yes)                  155              1,085
 
-Healthy (No)       98	               980
+Healthy (No)                  98	             980
 
-Total	            253	             2,065
+Total	                       253	            2,065
 
 
 # Preprocessing Pipeline:
