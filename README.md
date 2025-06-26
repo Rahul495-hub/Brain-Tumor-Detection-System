@@ -18,7 +18,9 @@ Key Features:
 
 # Model Architecture
 The custom CNN architecture delivers high performance while maintaining computational efficiency:
-'''
+
+
+```
 Input (240, 240, 3)
 ├── ZeroPadding2D(padding=((3, 3), (3, 3)))
 ├── Conv2D(32, kernel_size=(7, 7), strides=1, use_bias=False)
@@ -26,5 +28,6 @@ Input (240, 240, 3)
 ├── ReLU()
 ├── MaxPooling2D(pool_size=(4, 4), strides=4)
 ├── Flatten()
-└── Dense(1, activation='sigmoid')
-'''
+└── Dense(1, activation='sigmoid')```
+
+
