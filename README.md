@@ -52,3 +52,31 @@ Resizing : Standardize images to 240×240×3 pixels
 Normalization : Scale pixel values to [0, 1]
 
 Augmentation : Rotation, flipping, zooming (20° range)
+
+
+# Installation
+# Prerequisites
+
+Python 3.8+
+
+TensorFlow 2.x
+
+OpenCV
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
