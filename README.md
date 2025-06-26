@@ -86,6 +86,21 @@ pip install -r requirements.txt
 python app.py
 ```
 
+# Contributing
+
+We welcome contributions! Here's how to get started:
+
+🍴 Fork the repository
+
+🌿 Create a new branch: git checkout -b feature/your-feature
+
+💻 Make your changes
+
+✅ Commit your changes: git commit -m "Add amazing feature"
+
+📤 Push to the branch: git push origin feature/your-feature
+
+🔀 Submit a pull request
 
 
 
