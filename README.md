@@ -23,7 +23,8 @@ Input (240, 240, 3)
 ├── ReLU()
 ├── MaxPooling2D(pool_size=(4, 4), strides=4)
 ├── Flatten()
-└── Dense(1, activation='sigmoid')```
+└── Dense(1, activation='sigmoid')
+```
 
 # Dataset
 
