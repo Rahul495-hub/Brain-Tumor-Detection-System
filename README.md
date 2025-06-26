@@ -1,16 +1,16 @@
 # Brain-Tumor-Detection-System
 
+# Project Overview
+This project implements a CNN-based model to classify brain MRI images as tumorous or healthy. Designed for efficiency, the system works well on standard hardware without requiring specialized GPUs.
 
-Project Overview
-This project implements a CNN-based model to classify brain MRI images as tumorous or non-tumorous. Key features:
+Key Features:
 
-Binary classification with 88.7% test accuracy 1.
+🧠 Binary classification with 88.7% test accuracy
 
-Data augmentation to handle dataset imbalance and improve generalization.
+🔁 Data augmentation to handle dataset imbalance
 
-Streamlined preprocessing: Brain cropping, resizing, and normalization.
+⚡ Streamlined preprocessing pipeline
 
-Gradio-based web demo for easy testing
+🌐 Gradio-based web demo for easy testing
 
-
-
+📦 Lightweight model optimized for CPU execution
